@@ -206,12 +206,27 @@ def main():
     
     # Empty state
     if not st.session_state.events:
-        st.markdown("""
-        <div style='text-align:center; padding:4rem 0; color:#86868b;'>
-            <p style='font-size:3rem; margin-bottom:1rem;'>🚛</p>
-            <p style='font-size:1.1rem;'>Click <strong>Theft Demo</strong> to see the system detect pilferage in real-time</p>
-        </div>
-        """, unsafe_allow_html=True)
+        col1, col2 = st.columns([1, 1])
+        
+        with col1:
+            st.markdown("""
+            <div style='padding:2rem 0; color:#86868b;'>
+                <p style='font-size:2.5rem; margin-bottom:0.5rem;'>🚛</p>
+                <h2 style='color:#1d1d1f;'>Rebar Anti-Theft System</h2>
+                <p style='font-size:1rem; line-height:1.6;'>
+                    Click <strong>Theft Demo</strong> to see the system detect pilferage in real-time.
+                </p>
+                <br>
+                <p style='font-size:0.9rem;'>
+                    <strong>🔴 Red Dot</strong> = AI Camera Position<br>
+                    <strong>🔺 Red Zone</strong> = Camera Coverage Area
+                </p>
+            </div>
+            """, unsafe_allow_html=True)
+        
+        with col2:
+            st.image("assets/camera_setup.png", caption="Camera monitors cargo from rear of truck", use_container_width=True)
+        
         return
     
     # Current event
