@@ -336,7 +336,7 @@ def main():
     with col2:
         st.markdown(f"""
         <div style='text-align:right; padding-top:0.5rem'>
-            <a href='http://localhost:8502' target='_blank' style='text-decoration:none;'>
+            <a href='https://guide-tata-steel.streamlit.app/' target='_blank' style='text-decoration:none;'>
                 📖 User Guide
             </a> | 🔋87% | {datetime.now().strftime('%H:%M')}
         </div>

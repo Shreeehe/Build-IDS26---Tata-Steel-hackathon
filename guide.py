@@ -50,7 +50,8 @@ page = st.sidebar.radio("Navigate to:", [
 
 st.sidebar.markdown("---")
 st.sidebar.markdown("### 🔗 Quick Access")
-st.sidebar.markdown("[🚛 Main Dashboard](http://localhost:8501)")
+st.sidebar.markdown("[🚛 Main Dashboard](https://build-ids26---tata-steel-hackathon.streamlit.app/)")
+st.sidebar.markdown("[📊 Presentation](https://presentation-tata-steel-hackathon.streamlit.app/)")
 st.sidebar.info("💡 Tip: Use the main dashboard in a separate tab while reading this guide")
 
 # ===== PAGE: System Overview =====
@@ -178,7 +179,7 @@ elif page == "🚀 Quick Start Tutorial":
         st.markdown("""
         <div class="step-box">
             <h3>🌐 Step 1: Open the Dashboard</h3>
-            <p>Navigate to <code>http://localhost:8501</code> or your deployed URL.</p>
+            <p>Navigate to <a href='https://build-ids26---tata-steel-hackathon.streamlit.app/' target='_blank'>Live Dashboard</a></p>
             <p>You'll see the main monitoring interface with:</p>
             <ul>
                 <li>Quick stats bar at the top</li>

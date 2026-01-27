@@ -262,7 +262,7 @@ elif st.session_state.slide == 6:
     st.markdown("""
     <div class="highlight-box">
         <h2>👆 Open the Dashboard</h2>
-        <p style="font-size:1.5rem;"><a href="http://localhost:8501" target="_blank" style="color:white;">http://localhost:8501</a></p>
+        <p style="font-size:1.5rem;"><a href="https://build-ids26---tata-steel-hackathon.streamlit.app/" target="_blank" style="color:white;">Open Live Dashboard</a></p>
     </div>
     """, unsafe_allow_html=True)
     
@@ -457,7 +457,7 @@ elif st.session_state.slide == 10:
             <h2>🙏 Thank You!</h2>
             <p>Questions? Let's discuss!</p>
             <br>
-            <p><a href="http://localhost:8501" target="_blank" style="color:white; font-size:1.2rem;">
+            <p><a href="https://build-ids26---tata-steel-hackathon.streamlit.app/" target="_blank" style="color:white; font-size:1.2rem;">
                 👉 Try the Live Demo
             </a></p>
         </div>

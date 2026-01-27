@@ -33,7 +33,11 @@ streamlit run app.py
 ```
 
 ### Access Dashboard
-Open http://localhost:8501 in your browser
+### 🌐 Live Deployment
+
+- **Dashboard:** https://build-ids26---tata-steel-hackathon.streamlit.app/
+- **User Guide:** https://guide-tata-steel.streamlit.app/
+- **Presentation:** https://presentation-tata-steel-hackathon.streamlit.app/
 
 ---
 
