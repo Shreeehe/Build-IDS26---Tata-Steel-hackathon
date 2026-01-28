@@ -91,7 +91,7 @@ if st.session_state.slide == 1:
         """, unsafe_allow_html=True)
     
     st.markdown("<br><br>", unsafe_allow_html=True)
-    st.markdown('<p style="text-align:center;">Tata Steel Hackathon 2026 | Team [Your Name]</p>', unsafe_allow_html=True)
+    st.markdown('<p style="text-align:center;">Shrinath PS -Individual</p>', unsafe_allow_html=True)
 
 # ========== SLIDE 2: The Problem ==========
 elif st.session_state.slide == 2:
